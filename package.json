@@ -1,0 +1,21 @@
+{
+  "name": "random-prac-4",
+  "version": "1.0.0",
+  "description": "Random practice repo #4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"This is just the script running.\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digimoniker/random-prac-4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/digimoniker/random-prac-4/issues"
+  },
+  "homepage": "https://github.com/digimoniker/random-prac-4#readme"
+}

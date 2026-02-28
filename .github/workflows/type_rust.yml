@@ -1,0 +1,15 @@
+name: TypeRust
+on: workflow_dispatch
+
+jobs:
+  TypeConfig:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Add code
+        uses: actions/checkout@v6
+      - name: Add deno
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: lts
+      - name: Run typescript
+        run: deno ts_project/test.ts
